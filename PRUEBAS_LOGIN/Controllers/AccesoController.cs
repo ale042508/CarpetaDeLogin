@@ -16,9 +16,7 @@ namespace PRUEBAS_LOGIN.Controllers
     public class AccesoController : Controller
     {
 
-        static string cadena = "Data Source=(local);Initial Catalog=DB_ACCESO;Integrated Security=true";
-
-
+        static string cadena = "Data Source=localhost;Initial Catalog=DB_ACCESO;Integrated Security=true;user id=SecurityDB;pwd=SecurityDB";
 
         // GET: Acceso
         public ActionResult Login()
